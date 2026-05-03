@@ -1,0 +1,3 @@
+[submodule "esp_addressable_leds/KiCad-Waveshare-ESP32"]
+	path = esp_addressable_leds/KiCad-Waveshare-ESP32
+	url = git@github.com:jonathanadams/KiCad-Waveshare-ESP32.git
