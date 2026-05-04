@@ -1,0 +1,7 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "NLDD-1050H") (type "KiCad") (uri "${KIPRJMOD}/../library/NLDD-1050H.kicad_sym") (options "") (descr ""))
+	(lib (name "VEML7700_TR") (type "KiCad") (uri "${KIPRJMOD}/../library/VEML7700_TR.kicad_sym") (options "") (descr ""))
+	(lib (name "Waveshare-ESP32") (type "KiCad") (uri "${KIPRJMOD}/../library/Waveshare-ESP32.kicad_sym") (options "") (descr ""))
+	(lib (name "Seeed_Studio_XIAO_Series") (type "KiCad") (uri "${KIPRJMOD}/../library/Seeed_Studio_XIAO_Series.kicad_sym") (options "") (descr ""))
+)

@@ -4,3 +4,6 @@
 [submodule "KiCad-Waveshare-ESP32"]
 	path = KiCad-Waveshare-ESP32
 	url = git@github.com:jonathanadams/KiCad-Waveshare-ESP32.git
+[submodule "KiCad_ESP32-C3-SuperMini"]
+	path = KiCad_ESP32-C3-SuperMini
+	url = git@github.com:mrtnvgr/KiCad_ESP32-C3-SuperMini.git
