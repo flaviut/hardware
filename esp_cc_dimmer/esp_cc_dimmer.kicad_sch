@@ -458,7 +458,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:RotaryEncoder_Switch"
+		(symbol "Device:RotaryEncoder_Switch_MP"
 			(pin_names
 				(offset 0.254)
 				(hide yes)
@@ -469,7 +469,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
-				(at 0 6.604 0)
+				(at 0 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -478,8 +478,8 @@
 					)
 				)
 			)
-			(property "Value" "RotaryEncoder_Switch"
-				(at 0 -6.604 0)
+			(property "Value" "RotaryEncoder_Switch_MP"
+				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -500,7 +500,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 6.604 0)
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -510,8 +510,8 @@
 					)
 				)
 			)
-			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-				(at 0 0 0)
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
+				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -543,7 +543,7 @@
 					)
 				)
 			)
-			(symbol "RotaryEncoder_Switch_0_1"
+			(symbol "RotaryEncoder_Switch_MP_0_1"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -768,7 +768,7 @@
 					)
 				)
 			)
-			(symbol "RotaryEncoder_Switch_1_1"
+			(symbol "RotaryEncoder_Switch_MP_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -816,6 +816,24 @@
 						)
 					)
 					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2624,6 +2642,12 @@
 		(color 0 0 0 0)
 		(uuid "e5e2e84a-719a-4197-bfbc-cd8aaea73edd")
 	)
+	(junction
+		(at 198.12 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f161ae65-1c0c-4c0f-a956-90dd7abde568")
+	)
 	(no_connect
 		(at 157.48 31.75)
 		(uuid "263323f9-6cc4-4353-ad89-f65ecca5140d")
@@ -2690,6 +2714,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 58.42) (xy 187.96 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b23620a-b48a-444b-bc2b-aa84ae590880")
+	)
+	(wire
+		(pts
 			(xy 213.36 62.23) (xy 213.36 93.98)
 		)
 		(stroke
@@ -2720,7 +2754,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 58.42) (xy 170.18 58.42)
+			(xy 170.18 58.42) (xy 187.96 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2780,6 +2814,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 59.69) (xy 209.55 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "552ab038-c33f-4c4b-8218-f339a36ff30f")
+	)
+	(wire
+		(pts
 			(xy 88.9 127) (xy 88.9 134.62)
 		)
 		(stroke
@@ -2797,6 +2841,16 @@
 			(type default)
 		)
 		(uuid "5a0a59c0-b43f-4c63-a77e-3deab8a647b5")
+	)
+	(wire
+		(pts
+			(xy 205.74 55.88) (xy 205.74 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c17c5c4-aef5-454f-97e0-6149e961fcf1")
 	)
 	(wire
 		(pts
@@ -2950,7 +3004,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 45.72) (xy 209.55 58.42)
+			(xy 209.55 45.72) (xy 209.55 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2997,6 +3051,16 @@
 			(type default)
 		)
 		(uuid "d38987ed-cf90-4c5a-91bc-0a22ad1d2b48")
+	)
+	(wire
+		(pts
+			(xy 198.12 55.88) (xy 205.74 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6674ae7-7828-4cb5-ac1f-1aa6589819bf")
 	)
 	(wire
 		(pts
@@ -3411,7 +3475,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:RotaryEncoder_Switch")
+		(lib_id "Device:RotaryEncoder_Switch_MP")
 		(at 198.12 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -3454,7 +3518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 41.656 0)
+			(at 198.12 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3464,8 +3528,8 @@
 				)
 			)
 		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 198.12 48.26 0)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
+			(at 198.12 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3489,6 +3553,9 @@
 		)
 		(pin "S1"
 			(uuid "55ac2c16-2af5-4a7c-8ca6-118025dde1d5")
+		)
+		(pin "MP"
+			(uuid "8aab27c4-04d5-46a5-9265-a524ccc2051b")
 		)
 		(instances
 			(project "esp_cc_dimmer"
@@ -5028,7 +5095,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 50.8 0)
+		(at 198.12 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5036,10 +5103,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ce8f0029-a79f-4e23-935f-64da1b96de42")
 		(property "Reference" "#PWR012"
-			(at 205.74 57.15 0)
+			(at 198.12 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5050,7 +5116,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 55.88 0)
+			(at 194.31 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5060,7 +5126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 50.8 0)
+			(at 198.12 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5071,7 +5137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 50.8 0)
+			(at 198.12 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5082,7 +5148,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 50.8 0)
+			(at 198.12 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
