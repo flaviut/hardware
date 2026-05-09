@@ -677,6 +677,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -736,7 +742,7 @@
         "uuid": "19e30a91-73c7-481b-b5ab-6644fc55d962"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C2,H1-2",
     "variants": []
   },
   "sheets": [

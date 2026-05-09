@@ -318,6 +318,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1026,6 +1203,105 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -2571,16 +2847,16 @@
 		(uuid "2109cedf-ce55-492b-b098-55a3416973d8")
 	)
 	(junction
-		(at 63.5 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4514dcd8-2169-4172-9698-adeaeaa90e2b")
-	)
-	(junction
 		(at 88.9 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ec8bab3-a174-4abf-a1f1-d6e3d67015d9")
+	)
+	(junction
+		(at 63.5 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c21162a-3ac8-4f86-b245-42cfb98b06dd")
 	)
 	(junction
 		(at 217.17 93.98)
@@ -2593,6 +2869,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70f379de-8b1e-4249-9c6e-c22295a17e0f")
+	)
+	(junction
+		(at 63.5 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "830699e9-fd8c-4e0e-ba9c-82060ba3fc5b")
 	)
 	(junction
 		(at 77.47 134.62)
@@ -2704,6 +2986,26 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 127) (xy 63.5 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1138667d-0c7d-4ca2-8a7f-b1a097e068db")
+	)
+	(wire
+		(pts
+			(xy 63.5 134.62) (xy 77.47 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d23f27-1582-4899-b8b0-0d5a12c3a036")
+	)
+	(wire
+		(pts
 			(xy 217.17 93.98) (xy 213.36 93.98)
 		)
 		(stroke
@@ -2774,6 +3076,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 127) (xy 46.99 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42858974-2be6-42dd-9e44-2351c82253a4")
+	)
+	(wire
+		(pts
 			(xy 109.22 107.95) (xy 109.22 124.46)
 		)
 		(stroke
@@ -2811,6 +3123,16 @@
 			(type default)
 		)
 		(uuid "509ecb87-3340-47c8-9b0e-4cd1ce1dd912")
+	)
+	(wire
+		(pts
+			(xy 46.99 119.38) (xy 63.5 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55118d37-5c2a-4159-94a7-99b3b50edb68")
 	)
 	(wire
 		(pts
@@ -3024,16 +3346,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 134.62) (xy 77.47 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cba97aec-bae7-4d70-840e-5b51d5878814")
-	)
-	(wire
-		(pts
 			(xy 213.36 62.23) (xy 170.18 62.23)
 		)
 		(stroke
@@ -3154,6 +3466,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 134.62) (xy 63.5 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9bbe7aa-ef23-4173-a810-fe0b389e2f95")
+	)
+	(wire
+		(pts
 			(xy 116.84 124.46) (xy 116.84 127)
 		)
 		(stroke
@@ -3231,6 +3553,82 @@
 			(justify left bottom)
 		)
 		(uuid "dbbdb17f-3f8e-45ca-95f9-e02aba252214")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0220a8ff-5467-4011-a8c4-b6177c2aaa51")
+		(property "Reference" "H1"
+			(at 45.72 24.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 45.72 26.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 43.18 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 43.18 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "esp_cc_dimmer"
+				(path "/19e30a91-73c7-481b-b5ab-6644fc55d962"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "LX8015:LX8015")
@@ -3313,6 +3711,82 @@
 			(project "esp_cc_dimmer"
 				(path "/19e30a91-73c7-481b-b5ab-6644fc55d962"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fa26624-e67e-418a-abd0-ed9219d5cda3")
+		(property "Reference" "H2"
+			(at 45.72 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 45.72 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 43.18 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 43.18 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "esp_cc_dimmer"
+				(path "/19e30a91-73c7-481b-b5ab-6644fc55d962"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -3496,7 +3970,7 @@
 				)
 			)
 		)
-		(property "Value" "RotaryEncoder_Switch"
+		(property "Value" "EC11E15244G1"
 			(at 198.12 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3530,6 +4004,17 @@
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
 			(at 198.12 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C370970"
+			(at 198.12 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4103,88 +4588,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 63.5 123.19 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64592d33-56a5-4fd1-8cc1-6cac4496a401")
-		(property "Reference" "C10"
-			(at 67.31 121.9199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 67.31 124.4599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 64.4652 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 63.5 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7729b257-c04c-47f3-aa09-cad38f2df908")
-		)
-		(pin "2"
-			(uuid "d9867046-3813-492e-a891-512d53f863d2")
-		)
-		(instances
-			(project "esp_cc_dimmer"
-				(path "/19e30a91-73c7-481b-b5ab-6644fc55d962"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 240.03 78.74 0)
 		(unit 1)
@@ -4430,9 +4833,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "92cacff9-f34d-48bf-bfb4-9bf26878ad16")
 		(property "Reference" "J1"
-			(at 167.64 109.2201 0)
+			(at 167.64 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4442,8 +4846,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 167.64 106.6801 0)
+		(property "Value" "WJ15EDGRC-3.81-02P-14-00A"
+			(at 167.64 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4486,6 +4890,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C8387"
+			(at 165.1 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2dbcbbc3-1e10-47e9-8e4f-ff7c510ce529")
 		)
@@ -4496,6 +4911,99 @@
 			(project "esp_cc_dimmer"
 				(path "/19e30a91-73c7-481b-b5ab-6644fc55d962"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 46.99 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95dcfa4d-ae32-4dec-97c5-96558f064f00")
+		(property "Reference" "C2"
+			(at 50.8 121.0309 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u 63V"
+			(at 50.8 123.5709 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+			(at 47.9552 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 46.99 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2990945"
+			(at 46.99 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c08deaee-bbfc-4b26-a211-07e17793519d")
+		)
+		(pin "1"
+			(uuid "23b33f70-e4c2-45a1-a34c-74b3041480c8")
+		)
+		(instances
+			(project "esp_cc_dimmer"
+				(path "/19e30a91-73c7-481b-b5ab-6644fc55d962"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4953,7 +5461,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "WJ15EDGRC-3.81-02P-14-00A"
 			(at 49.53 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4986,6 +5494,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 49.53 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C8387"
 			(at 49.53 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -5171,88 +5690,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 63.5 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d486c715-4a5a-4851-b7c8-0662ee892522")
-		(property "Reference" "C9"
-			(at 67.31 129.5399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 67.31 132.0799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 64.4652 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 63.5 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "971c10e9-a0b1-4d94-b336-376319059ebf")
-		)
-		(pin "2"
-			(uuid "543d2ad8-901e-41e2-9b2b-000fc61330bf")
-		)
-		(instances
-			(project "esp_cc_dimmer"
-				(path "/19e30a91-73c7-481b-b5ab-6644fc55d962"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 149.86 83.82 0)
 		(unit 1)
@@ -5331,6 +5768,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 63.5 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da9f4941-dc4a-4f8d-90b7-48af1ec643dd")
+		(property "Reference" "C11"
+			(at 59.69 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7u 100V"
+			(at 59.69 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 64.4652 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 63.5 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C381466"
+			(at 63.5 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "917e97bf-091c-4d76-9e66-71ddff38dc4f")
+		)
+		(pin "2"
+			(uuid "9e312377-13f2-4dc1-9ecc-cb0ebb23067a")
+		)
+		(instances
+			(project "esp_cc_dimmer"
+				(path "/19e30a91-73c7-481b-b5ab-6644fc55d962"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "VEML7700_TR:VEML7700-TR")
 		(at 240.03 95.25 0)
 		(unit 1)
@@ -5361,7 +5891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VEML7700-TR"
+		(property "Footprint" "footprints:VEML7700-TR"
 			(at 240.03 95.25 0)
 			(hide yes)
 			(show_name no)
