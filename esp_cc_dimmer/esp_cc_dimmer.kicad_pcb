@@ -175,12 +175,6 @@
 		(path "/de1f759a-d2d6-47de-b800-26f356c2ebc4")
 		(sheetname "/")
 		(sheetfile "esp_cc_dimmer.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "4" "1" "2" "3")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -395,6 +389,17 @@
 			(uuid "0993d570-14f9-4417-874e-6e9dbaaeb31f")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/../library/VEML7700_TR.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "footprints:LX8015"
 		(layer "F.Cu")
@@ -654,12 +659,6 @@
 		(path "/e8986dfd-3de8-47fe-8002-1caec15586e2")
 		(sheetname "/")
 		(sheetfile "esp_cc_dimmer.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -825,12 +824,6 @@
 		(path "/da9f4941-dc4a-4f8d-90b7-48af1ec643dd")
 		(sheetname "/")
 		(sheetfile "esp_cc_dimmer.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -983,12 +976,6 @@
 		(path "/beff4050-83c6-4d57-83f4-380c1f7b5990")
 		(sheetname "/")
 		(sheetfile "esp_cc_dimmer.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1132,14 +1119,6 @@
 		(path "/1f1d58e0-e7be-4e36-982b-8459e3c53c97")
 		(sheetname "/")
 		(sheetfile "esp_cc_dimmer.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "26" "29" "28" "25" "24" "8" "9" "10" "11" "14" "12" "33" "27"
-					"13" "32" "1" "2" "3" "4" "5" "6" "7"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1714,57 +1693,9 @@
 			(uuid "ca1d15ff-ea00-4b13-a234-4d7af6224fa3")
 		)
 		(embedded_fonts no)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/XIAO-nRF52840 v15.step"
-			(hide yes)
+		(model "${KIPRJMOD}/../library/XIAO-ESP32-C3.step"
 			(offset
 				(xyz -1.778 -6.096 0.381)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/Seeeduino XIAO SAMD21 v4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/Seeed Studio XIAO RP2040 v26.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 90)
-			)
-		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/Seeed Studio XIAO-ESP32-C3.step"
-			(hide yes)
-			(offset
-				(xyz -1.7018 -6.096 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/XIAO-ESP32S3 v2.step"
-			(hide yes)
-			(offset
-				(xyz -1.778 -6.1722 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -1841,12 +1772,6 @@
 		(path "/0220a8ff-5467-4011-a8c4-b6177c2aaa51")
 		(sheetname "/")
 		(sheetfile "esp_cc_dimmer.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -1970,12 +1895,6 @@
 		(path "/c0cd95d8-8825-4004-8d11-9ab56a16d85a")
 		(sheetname "/")
 		(sheetfile "esp_cc_dimmer.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2174,7 +2093,7 @@
 		(descr "NLDD-1050H-1")
 		(tags "Power Supply")
 		(property "Reference" "PS1"
-			(at 4.015 -25.95 180)
+			(at 4.015 -25.95 0)
 			(layer "F.SilkS")
 			(uuid "b28d4b6b-62e4-43f9-a482-1dbb7162ec55")
 			(effects
@@ -2312,12 +2231,6 @@
 		(path "/a8f8af4e-964d-4423-a519-fa6f401d9072")
 		(sheetname "/")
 		(sheetfile "esp_cc_dimmer.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "13" "14" "22" "23" "24" "12" "11" "2" "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2504,7 +2417,7 @@
 			(uuid "07f2d671-dc72-49c1-b44a-50dc0b3c37ee")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -7.235 -11.45 180)
+			(at -7.235 -11.45 0)
 			(layer "F.Fab")
 			(uuid "4357044c-f28c-4a9a-ae22-896bf630cfbb")
 			(effects
@@ -2614,7 +2527,7 @@
 			(uuid "1019bb9c-d11e-4dff-b6a7-1f212e013c42")
 		)
 		(embedded_fonts no)
-		(model "NLDD-1050H.stp"
+		(model "${KIPRJMOD}/../library/NLDD-1050H.stp"
 			(offset
 				(xyz -7.57999981 11.44999964 -0.09999999999)
 			)
@@ -2705,12 +2618,6 @@
 		(path "/92cacff9-f34d-48bf-bfb4-9bf26878ad16")
 		(sheetname "/")
 		(sheetfile "esp_cc_dimmer.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2968,12 +2875,6 @@
 		(path "/b6eb1517-516f-4974-a1b8-20f6ffe003c3")
 		(sheetname "/")
 		(sheetfile "esp_cc_dimmer.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3131,12 +3032,6 @@
 		(path "/1d3cf27b-e040-4da7-bfa3-6577c8d8bb67")
 		(sheetname "/")
 		(sheetfile "esp_cc_dimmer.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "A" "C" "B" "MP" "S1" "S2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3484,15 +3379,15 @@
 			(uuid "d015ab7e-189b-44b4-ae0a-89be96ca3ee6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles.step"
+		(model "${KIPRJMOD}/../library/RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 7.5 -2.3 -12)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -3575,12 +3470,6 @@
 		(path "/95dcfa4d-ae32-4dec-97c5-96558f064f00")
 		(sheetname "/")
 		(sheetfile "esp_cc_dimmer.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5317,12 +5206,6 @@
 		(path "/c20fb54e-75ea-423b-9e07-7aea56cdd8ba")
 		(sheetname "/")
 		(sheetfile "esp_cc_dimmer.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5475,12 +5358,6 @@
 		(path "/5351b274-1126-4d36-95f2-fce134b1a17f")
 		(sheetname "/")
 		(sheetfile "esp_cc_dimmer.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5634,12 +5511,6 @@
 		(path "/0fa26624-e67e-418a-abd0-ed9219d5cda3")
 		(sheetname "/")
 		(sheetfile "esp_cc_dimmer.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle

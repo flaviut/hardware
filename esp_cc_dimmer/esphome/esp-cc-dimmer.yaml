@@ -61,11 +61,11 @@ sensor:
     on_clockwise:
       - light.dim_relative:
           id: led_light
-          relative_brightness: -${dim_step}
+          relative_brightness: ${dim_step}
     on_anticlockwise:
       - light.dim_relative:
           id: led_light
-          relative_brightness: ${dim_step}
+          relative_brightness: -${dim_step}
 
   - platform: veml7700
     address: 0x10
